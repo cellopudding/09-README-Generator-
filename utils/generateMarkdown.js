@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None'){
-    return `\n* [license](#license)\n`
+    return `\n* [License](#license)\n`
   }
     return ""
 }
@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None'){
     return `## License
-    This project is licensed under the ${license} license.
+${license} 
     `
   }
   return ""
@@ -30,54 +30,44 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title} 
-  ${renderLicenseBadge(data.license)}
+# ${data.title} 
+${renderLicenseBadge(data.license)}
   
-  ## Description
-  ${data.description} 
-  ## Table of Contents 
-  * [description](#description)\n
-  * [installation](#installation)\n
-  * [usage](#usage)\n
-  * [contributors](#contributors)\n
-  * [tests](#tests)\n
-  ${renderLicenseLink(data.license)}
-  
-  
-  ## Installation
-  to install necessary dependencies run ${data.installation}
+## Description
+${data.description} 
+## Table of Contents 
+* [Description](#description)\n
+* [Installation](#installation)\n
+* [Usage](#usage)\n
+* [Contributors](#contributors)\n
+* [Tests](#tests)\n
+${renderLicenseLink(data.license)}
   
   
-  ## Usage
-  ${data.usage}
-
-
-  ## Contributors
-  ${data.contributors}
-
-
-  ## Tests
-  ${data.tests}
-
-
-  ${renderLicenseSection(data.license)}
-
-
+## Installation
+${data.installation}
   
-  ## Questions
-  If you have any questions about the repo, contact me directly at ${data.email}
   
-  Check out more of my work at [${data.github}]({https://github.com/${data.github}/)
+## Usage
+${data.usage}
 
+
+## Contributors
+${data.contributors}
+
+
+## Tests
+${data.tests}
+
+
+${renderLicenseSection(data.license)}
 
 
   
-
-
-
-
-
-
+## Questions
+-If you have any questions, contact me directly at ${data.email}
+  
+-Check out more of my work at [${data.github}]({https://github.com/${data.github}/)
 `;
 }
 
