@@ -1,51 +1,72 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== 'None'){
+    return `![github license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
+    return ""
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license !== 'None'){
+    return `\n* [license](#license)\n`
+  }
+    return ""
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== 'None'){
+    return `##License
+    This project is licensed under the ${license} license.
+    `
+  }
+  return ""
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `#**applicationTitle**
-              **${data.title}**
-  #GithubUsername 
+  return `
+              ** ${data.title} **
+===============================================================              
+              ${renderLicenseBadge(data.license)}
+  ## Github Username 
   ${data.github}
-  ##Description
+  ## Description
   ${data.description} 
-  ##Table of contents 
-  *[description](#description)
-  *[installation](#installation)
-  *[usage](#usage)
-  *[contributors](#contributors)
-  *[tests](#tests)
-  *[license](#license)
+  ## Table of Contents 
+  * [description](#description)\n
+  * [installation](#installation)\n
+  * [usage](#usage)\n
+  * [contributors](#contributors)\n
+  * [tests](#tests)\n
+  ${renderLicenseLink(data.license)}
   
-  ##Installation
+  
+  ## Installation
   to install necessary dependencies run ${data.installation}
   
   
-  ##Usage
+  ## Usage
   ${data.usage}
 
 
-  ##Contributors
+  ## Contributors
   ${data.contributors}
 
 
-  ##Tests
+  ## Tests
   to run tests, run ${data.tests}
 
 
-  ##License
+  ${renderLicenseSection(data.license)}
+
 
   
-  ##Questions
+  ## Questions
   If you have any questions about the repo, contact me directly at ${data.email}
   
   Check out more of my work at [${data.github}]({https://github.com/${data.github}/)
