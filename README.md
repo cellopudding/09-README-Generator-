@@ -1,11 +1,9 @@
 
-              ** breaking dad **
-===============================================================              
-              ![github license](https://img.shields.io/badge/license-MIT-blue.svg)
-  ## Github Username 
-  cellpudding
+  # Breaking Dad 
+  ![github license](https://img.shields.io/badge/license-MIT-blue.svg)
+  
   ## Description
-  fun 
+  a way to get breakign bad quotes and dad jokes 
   ## Table of Contents 
   * [description](#description)
 
@@ -23,31 +21,31 @@
   
   
   ## Installation
-  to install necessary dependencies run no
+  to install necessary dependencies run not really
   
   
   ## Usage
-  fun
+  genereal fun
 
 
   ## Contributors
-  yes
+  jeff, july, brad, tom
 
 
   ## Tests
-  to run tests, run no
+  to run tests, run n/a
 
 
-  ##License
+  ## License
     This project is licensed under the MIT license.
     
 
 
   
   ## Questions
-  If you have any questions about the repo, contact me directly at root.lonnie
+  If you have any questions about the repo, contact me directly at root.lonnie@gmail.com
   
-  Check out more of my work at [cellpudding]({https://github.com/cellpudding/)
+  Check out more of my work at [cellopudding]({https://github.com/cellopudding/)
 
 
 
