@@ -1,5 +1,5 @@
 
-# Hello 
+# breaking dad 
 ![github license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 ## Description
@@ -21,7 +21,7 @@ fun
   
   
 ## Installation
-fun
+no
   
   
 ## Usage
@@ -29,11 +29,11 @@ fun
 
 
 ## Contributors
-fun
+no
 
 
 ## Tests
-fun
+no
 
 
 ## License
@@ -43,16 +43,6 @@ MIT
 
   
 ## Questions
--If you have any questions about the repo, contact me directly at root.lonnie@gmail.com
+-If you have any questions, contact me directly at root.lonnie@gmail.com
   
 -Check out more of my work at [cellopudding]({https://github.com/cellopudding/)
-
-
-
-  
-
-
-
-
-
-
