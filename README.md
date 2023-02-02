@@ -1,9 +1,8 @@
-
-# breaking dad 
+# Application Title 
 ![github license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 ## Description
-fun 
+Quickly generate README files 
 ## Table of Contents 
 * [Description](#description)
 
@@ -21,19 +20,19 @@ fun
   
   
 ## Installation
-no
+n/a
   
   
 ## Usage
-fun
+Quickly generate README files
 
 
 ## Contributors
-no
+n/a
 
 
 ## Tests
-no
+n/a
 
 
 ## License
